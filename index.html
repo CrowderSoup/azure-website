@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure's World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="Azure.jpg" alt="A picture of Azure" class="profile-pic" />
+      <h1>Hey, I'm Azure!</h1>
+      <p>
+        A project manager with 5+ years of experience turning data into
+        actionable insights.
+      </p>
+    </header>
+    <main>
+      <section id="about">
+        <h2>A Little About Me</h2>
+        <p>
+          When I'm not working, you can find me creating vibrant art with
+          alcohol inks or exploring the great outdoors with my dog.
+        </p>
+      </section>
+
+      <div class="tabs">
+        <button class="tab-link active" onclick="openTab(event, 'Resume')">
+          Resume
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'Contact')">
+          Contact
+        </button>
+      </div>
+
+      <div id="Resume" class="tab-content" style="display: block">
+        <h3>Resume Highlights</h3>
+        <ul>
+          <li>
+            Results-driven certified associate project manager with over 5 years
+            of experience in data analysis.
+          </li>
+          <li>
+            Lead onboarding and relationship management for enterprise clients,
+            driving measurable customer value.
+          </li>
+          <li>
+            Expertise in Project Management, data-driven problem-solving, and
+            Salesforce.
+          </li>
+          <li>Proficient in SQL and experienced in mentoring and training.</li>
+        </ul>
+        <a href="AzureResume.pdf" target="_blank" class="button"
+          >Download Full Resume</a
+        >
+      </div>
+
+      <div id="Contact" class="tab-content">
+        <h3>Get In Touch</h3>
+        <p>
+          You can reach me at
+          <a href="mailto:azurepaigesmith@gmail.com"
+            >azurepaigesmith@gmail.com</a
+          >
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/azurepaigesmith" target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Azure Smith</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
